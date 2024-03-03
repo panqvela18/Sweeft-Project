@@ -12,7 +12,7 @@ import Root from "./Root";
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Root />}>
+      <Route path="Sweeft-Project/" element={<Root />}>
         <Route index={true} element={<Home />} />
         <Route path={"history"} element={<History />} />
       </Route>
